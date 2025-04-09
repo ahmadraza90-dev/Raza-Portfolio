@@ -1,0 +1,452 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar container */
+.container {
+    width: 100%;
+    height: 170px;
+    background-color: orange;
+    /* background: linear-gradient(orange, white); */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container .imgbox {
+    width: 20%;
+    height: 170px;
+    /* background-color: aqua; */
+    align-content: center;
+    text-align: center;
+    font-style: italic;
+}
+
+.container .navbox {
+    width: 40%;
+    height: 170px;
+    background-color: orange;
+    /* background: linear-gradient(orange, white); */
+    align-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container .navbox a {
+    font-size: 22px;
+    color: white;
+    font-style: italic;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 100PX;
+}
+
+.container .signbox {
+    width: 20%;
+    height: 170px;
+    background-color: orange;
+    /* background: linear-gradient(orange, white); */
+    align-content: center;
+    text-align: center;
+}
+
+.container .signbox button {
+    font-size: 22px;
+    color: white;
+    border: 1px solid white;
+    padding: 4px 14px;
+    border-radius: 4px;
+    background-color: orange;
+    /* background: linear-gradient(orange, white); */
+    cursor: pointer;
+    font-style: italic;
+}
+
+.container .signbox button:hover {
+    background-color: orange;
+    border-radius: 50px;
+}
+
+.container .signbox .fa-circle-user {
+    color: white;
+    padding-left: 20px;
+    font-size: 28px;
+    cursor: pointer;
+
+}
+
+.spacer {
+    height: 50px;
+    background-color: white;
+}
+
+.herosection {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    /* background-color: orange; */
+}
+
+.herosection .para {
+    width: 45%;
+    height: 270px;
+    /* background-color: orange; */
+    align-items: center;
+    align-content: center;
+}
+
+.herosection .para h1 {
+    color: orange;
+}
+
+.herosection .para p {
+    color: orange;
+    text-align: justify;
+    font-size: 23px;
+    margin-top: 15px;
+}
+
+.herosection .logobox {
+    width: 45%;
+    height: 270px;
+    /* background-color: orange; */
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+/* herosection end */
+
+.cleint {
+    text-align: center;
+    color: orange;
+}
+
+.testimonial {
+    width: 100%;
+    height: 300px;
+    /* background-image: url('unsplash.jpg'); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.testimonial .client1 {
+    width: 20%;
+    height: 250px;
+    background-color: black;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.testimonial .client1 img {
+    border-radius: 80%;
+    text-align: center;
+}
+
+.testimonial .fa-solid {
+    color: yellow;
+}
+
+.testimonial .fa-regular {
+    color: white;
+}
+
+.testimonial .client1 h4 {
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.testimonial .client2 {
+    width: 20%;
+    height: 250px;
+    background-color: goldenrod;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.testimonial .client2 img {
+    border-radius: 80%;
+    text-align: center;
+}
+
+.testimonial .client2 h4 {
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.testimonial .client3 {
+    width: 20%;
+    height: 250px;
+    background-color: black;
+    align-items: center;
+    align-content: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;
+    text-align: center;
+}
+
+.testimonial .client3 img {
+    border-radius: 80%;
+    text-align: center;
+}
+
+.testimonial .client3 h4 {
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/* testimonial section end */
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 40px 20px;
+    /* text-align: center; */
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+}
+
+.about-us,
+.contact-form {
+    width: 45%;
+    min-width: 300px;
+}
+
+.about-us h1,
+.contact-form h1 {
+    color: #f8b400;
+    font-style: italic;
+}
+
+.about-us p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #ccc;
+    font-style: italic;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.contact-form button {
+    background-color: #f8b400;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-style: italic;
+}
+
+.contact-form button:hover {
+    background-color: #ff9f00;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    font-size: 18px;
+    color: #bbb;
+    text-align: center;
+}
+
+/* Scroll to Top & Dark Mode Buttons */
+#scrollToTopBtn,
+#darkModeToggle {
+    position: fixed;
+    right: 20px;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#scrollToTopBtn {
+    bottom: 20px;
+    display: none;
+}
+
+#darkModeToggle {
+    bottom: 80px;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.dark-mode button {
+    background-color: #555;
+}
+
+        /* Media query  */
+
+/* Media query for devices with a max width of 768px (tablets and smaller devices) */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .container .imgbox,
+    .container .navbox,
+    .container .signbox {
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .container .navbox {
+        justify-content: space-around;
+    }
+
+    .container .navbox a {
+        font-size: 18px;
+        margin-left: 0;
+    }
+
+    .herosection {
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .herosection .para,
+    .herosection .logobox {
+        width: 90%;
+        height: auto;
+    }
+
+    .testimonial {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .testimonial .client1,
+    .testimonial .client2,
+    .testimonial .client3 {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    footer .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-container .about-us,
+    .footer-container .contact-form {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 14px;
+    }
+
+    .contact-form button {
+        font-size: 14px;
+    }
+
+    #scrollToTopBtn,
+    #darkModeToggle {
+        right: 10px;
+        padding: 10px;
+    }
+
+    #darkModeToggle {
+        bottom: 60px;
+    }
+}
+
+/* Media query for mobile devices with a max width of 480px */
+@media screen and (max-width: 480px) {
+    .container .imgbox {
+        font-size: 18px;
+    }
+
+    .container .navbox a {
+        font-size: 16px;
+    }
+
+    .container .signbox button {
+        font-size: 18px;
+    }
+
+    .herosection .para p {
+        font-size: 18px;
+    }
+
+    .testimonial .client1,
+    .testimonial .client2,
+    .testimonial .client3 {
+        width: 100%;
+    }
+
+    .footer-container .about-us,
+    .footer-container .contact-form {
+        width: 100%;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 12px;
+    }
+
+    .contact-form button {
+        font-size: 12px;
+    }
+
+    #scrollToTopBtn,
+    #darkModeToggle {
+        padding: 8px;
+    }
+}

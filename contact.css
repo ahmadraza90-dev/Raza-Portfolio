@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 20px;
+    font-style: italic;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px;
+    background: white;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form,
+.contact-info {
+    flex: 1;
+    min-width: 300px;
+}
+
+.contact-container .contact-info p .para {
+    padding-right: 50px;
+    font-style: italic;
+}
+
+.contact-form h2,
+.contact-info h2 {
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+button {
+    background: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-style: italic;
+}
+
+button:hover {
+    background: #555;
+    font-style: italic;
+}
+
+.map {
+    padding: 20px;
+    background: white;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-style: italic;
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+/* Media Queries for responsiveness */
+
+/* For tablets and smaller screens (max-width 768px) */
+@media screen and (max-width: 768px) {
+    .contact-container {
+        width: 90%;
+        padding: 30px;
+    }
+
+    .contact-form,
+    .contact-info {
+        flex: 1 1 100%;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .contact-info p .para {
+        padding-right: 20px;
+    }
+
+    button {
+        padding: 12px;
+    }
+
+    .map {
+        width: 90%;
+        padding: 15px;
+    }
+}
+
+/* For mobile devices (max-width 480px) */
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        font-size: 18px;
+    }
+
+    .contact-container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .map {
+        width: 100%;
+        padding: 10px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
